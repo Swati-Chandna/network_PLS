@@ -9,9 +9,9 @@
 
 ####OUTPUTS: 
 ##Linear coefficient vector: beta_pls[1:p,1], 
-##Residual term estimate: resid_pls_sorted an n by n MATRIX (sorted basd one estimated clusters under a GMM)
+##Latent position vector: Lambda_pls[,1:dhat_pls] and corresponding latent residual term (under GMM) resid_pls_sorted (n x n)
 ##final Phat from PLS: Phat_clustB_sorted n by n MATRIX
-####estimated clustering of nodes in the residual matrix: tauhat_pls
+##estimated clustering of nodes in the residual matrix: tauhat_pls
 
 
 require(statsr)
