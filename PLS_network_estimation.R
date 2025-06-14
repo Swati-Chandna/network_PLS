@@ -5,7 +5,7 @@
 ####################TO RUN: 
 ####Load the adjacency matrix: Y as an n by n MATRIX
 ###and edge covariates: ccedge[,,] as a n by n by p ARRAY
-####EXAMPLE DATASET (loaded by): Fungal_tree_net.R
+####EXAMPLE DATASET (loaded by): Tree_network_data.R
 
 ####OUTPUTS: 
 ##Linear coefficient vector: beta_pls[1:p,1], 
